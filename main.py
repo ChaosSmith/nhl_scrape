@@ -4,8 +4,6 @@ import httplib2
 from bs4 import BeautifulSoup, SoupStrainer
 import xlsxwriter
 
-url = "http://www.nhl.com/scores/htmlreports/20152016/PL020790.HTM"
-
 def write_out_sheet(sheet_name, data, workbook):
 	'''
 	Function takes a sheet name and writes the data set out to it.
